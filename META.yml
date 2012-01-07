@@ -8,7 +8,10 @@ build_requires:
   File::Find: 0
   File::Temp: 0
   Scalar::Util: 0
+  Test::DZil: 0
   Test::More: 0.94
+  Test::Most: 0
+  autodie: 0
   perl: 5.004
   strict: 0
   warnings: 0
@@ -35,4 +38,4 @@ requires:
 resources:
   homepage: https://github.com/DarwinAwardWinner/Dist-Zilla-Plugin-CheckVersionIncrement
   repository: https://github.com/DarwinAwardWinner/Dist-Zilla-Plugin-CheckVersionIncrement.git
-version: 0.120050
+version: 0.120070

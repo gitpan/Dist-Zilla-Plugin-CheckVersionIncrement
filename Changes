@@ -1,4 +1,7 @@
 Revision history for Perl extension Dist-Zilla-Plugin-CheckVersionIncrement
 
+0.120070  2012-01-06 23:14:26 PST8PDT
+    - Add a test
+
 0.120050  2012-01-05 11:11:57 PST8PDT
     - Initial CPAN release

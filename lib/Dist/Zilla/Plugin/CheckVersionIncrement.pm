@@ -1,7 +1,7 @@
 ## no critic
 package Dist::Zilla::Plugin::CheckVersionIncrement;
 {
-  $Dist::Zilla::Plugin::CheckVersionIncrement::VERSION = '0.120050';
+  $Dist::Zilla::Plugin::CheckVersionIncrement::VERSION = '0.120070';
 }
 ## use critic
 # ABSTRACT: Prevent a release unless the version number is incremented
@@ -69,7 +69,7 @@ Dist::Zilla::Plugin::CheckVersionIncrement - Prevent a release unless the versio
 
 =head1 VERSION
 
-version 0.120050
+version 0.120070
 
 =head1 SYNOPSIS
 
@@ -82,6 +82,11 @@ In your F<dist.ini>
 This plugin prevents your from releasing a distribution unless it has
 a version number I<greater> than the latest version already indexed on
 CPAN.
+
+Note that this plugin doesn't check whether your release method
+actually involves the CPAN or not. So if you don't use the
+UploadToCPAN plugin for releases, then you probably shouldn't use this
+one either.
 
 =head1 METHODS
 
