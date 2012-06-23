@@ -1,7 +1,7 @@
 ## no critic
 package Dist::Zilla::Plugin::CheckVersionIncrement;
 {
-  $Dist::Zilla::Plugin::CheckVersionIncrement::VERSION = '0.120080';
+  $Dist::Zilla::Plugin::CheckVersionIncrement::VERSION = '0.121750';
 }
 ## use critic
 # ABSTRACT: Prevent a release unless the version number is incremented
@@ -69,7 +69,7 @@ Dist::Zilla::Plugin::CheckVersionIncrement - Prevent a release unless the versio
 
 =head1 VERSION
 
-version 0.120080
+version 0.121750
 
 =head1 SYNOPSIS
 

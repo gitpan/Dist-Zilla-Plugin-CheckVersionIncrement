@@ -18,7 +18,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
+generated_by: 'Dist::Zilla version 4.300015, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -38,4 +38,4 @@ requires:
 resources:
   homepage: https://github.com/DarwinAwardWinner/Dist-Zilla-Plugin-CheckVersionIncrement
   repository: https://github.com/DarwinAwardWinner/Dist-Zilla-Plugin-CheckVersionIncrement.git
-version: 0.120080
+version: 0.121750
